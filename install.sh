@@ -11,4 +11,5 @@ cd /usr/src/ && git clone -b 16 http://gerrit.asterisk.org/asterisk asterisk16 &
 
 adduser asterisk && passwd asterisk 
 
-chown -R asterisk:asterisk /var/lib/asterisk/ && chown -R asterisk:asterisk /var/spool/asterisk/
+
+chown -R asterisk:asterisk /var/lib/asterisk/ && chown -R asterisk:asterisk /var/spool/asterisk/ && chown -R asterisk:asterisk /var/log/asterisk/ && chown -R asterisk:asterisk /var/run/asterisk/ && chown -R asterisk:asterisk /usr/sbin/asterisk && chown -R asterisk:asterisk /var/lib/asterisk/sounds/ && chown -R asterisk:asterisk /etc/asterisk
